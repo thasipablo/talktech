@@ -1,1 +1,1 @@
-web: gunicorn talktech.wsgi
+web: gunicorn talktech.wsgi --log-file -
