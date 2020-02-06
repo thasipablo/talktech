@@ -11,26 +11,25 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
 import os
-import environ
 from django.conf.global_settings import LOGIN_REDIRECT_URL, LOGIN_URL
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-env = environ.Env(SECRET_KEY = str,)
-environ.Env.read_env(os.path.join(BASE_DIR, '.env')) 
+# env = environ.Env(SECRET_KEY = str,)
+# environ.Env.read_env(os.path.join(BASE_DIR, '.env')) 
 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = env('DJANGO_SECRET_KEY')
+SECRET_KEY = '0v6ehey0j#dhk!&_ho-r9026zvgh4g)oifq=e*89qvw(v0klbq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = env('DJANGO_DEBUG')
+DEBUG = True
 
-ALLOWED_HOSTS = [env('DJANGO_ALLOWED_HOSTS')]
+ALLOWED_HOSTS = ['https://talktech.herokuapp.com/', '127.0.0.1']
 
 
 # Application definition
