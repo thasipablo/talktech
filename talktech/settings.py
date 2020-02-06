@@ -29,7 +29,7 @@ SECRET_KEY = '0v6ehey0j#dhk!&_ho-r9026zvgh4g)oifq=e*89qvw(v0klbq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://talktech.herokuapp.com/', '127.0.0.1']
+ALLOWED_HOSTS = ['talktech.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
