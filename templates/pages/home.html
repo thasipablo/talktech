@@ -1,0 +1,15 @@
+{% extends "layouts/base.html" %}
+
+{% block active %}active{% endblock active %}
+
+{% block content %}
+    <h1 class="">Talk Technologies Club</h1>
+    <p class="">
+        Based at UCBC campus, we share knolodge and experiences in technology.
+        <br>We believe that technology changes the way we think, make better our lives and 
+        the sharing is in the heart of it's revolution.
+    </p>
+    <p class="">
+        <a href="{% url 'users:register' %}" class="btn btn-primary">Join now</a>
+    </p>
+{% endblock content %}

@@ -1,0 +1,12 @@
+{% extends "layouts/base.html" %},
+{% block title %} {{ user.username }} Profile {% endblock title %}
+
+{% block content %}
+    <div class="media">
+        <img src="{{ user.profile.image.url }}" alt="user profile image" class="rounded-circle account-img" width="60px">
+        <div class="media-body ml-3">
+            <h2 class="account-heading">{{ user.username }}</h2>
+            <p class="text-secondary"> {{ user.email }}</p>
+        </div>
+    </div>
+{% endblock content %}

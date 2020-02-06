@@ -1,0 +1,55 @@
+/*
+ * Globals
+ */
+
+ 
+/*
+ * Links 
+ */
+
+
+/*
+ * Custom default button
+ */
+
+
+ /*
+  * Base structure
+  */
+  a {
+    cursor: pointer;
+  }
+
+
+/*
+ * Header
+ */
+/* ======== LOGO =========*/
+.navbar-brand.logo{
+  color: orange;
+  font-weight: bold;
+}
+
+.navbar.top-nav-bar{
+  box-shadow: 0 10px 20px #ececec;
+}
+
+.navbar-brand.logo:hover{
+  color: rgb(219, 143, 2);
+}
+
+ /*
+ * Main
+ */
+.main {
+  padding-top: 25px;
+}
+
+
+/*
+ * Footer
+ */
+
+ .footer{
+   text-align: center;
+ }
